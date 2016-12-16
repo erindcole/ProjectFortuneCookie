@@ -1,0 +1,9 @@
+-So far we have decided that we want to code in Java.
+-I have checked out free code camp, and it looks cool.  It seems like a good way to learn front end basics.  I think if I use it to learn new things, and also get to get my hands dirty by just trying some things with the project, I should be able to learn everything pretty well.
+-I set up this repo so that we can have good version control while we are working
+-I found some examples of implementing tries in Java that I think will be helpful
+-I am trying to figure out how to get the project underway.  I know we need to get a few things done.
+
+1. figure out what the UX will look like
+2. figure out how we want to implement the database, and how we want to organize the text files
+3. figure out the classes and heiarchy of the code

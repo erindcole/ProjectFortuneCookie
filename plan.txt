@@ -1,0 +1,15 @@
+Project Name: ProjectFortuneCookie
+Overall Objective: spread positivity with kind messages and sentiments
+
+High Level Description: Project Fortune Cookie is a web application that allows users to select between two options.  Either they can pick a fortune cookie by pressing a button to generate a random fortune from a fortune cookie, or they can select 'I want to focus on the present, can you give me some good news?' to select an affirmation.  The affirmation will be a positive message to inspire or motivate the person, or bring some sunshine to his or her day.
+
+Low Level Description: This project at a high level is a very simple concept; the sophistication of the design happens under the hood.  I want this project to mix my current knowledge of data structures and data science.  My goal is to find a database of fortunes and another database of affirmations or compliments.  I want to take these databases and organize them in such a way that fortunes and affirmations can be randomly generated.  I would like to parse each fortune into three sets of phrases.  In order to make a fortune, the database will first select a phrase from the 'phrase 1' set randomly, then it will select a phrase from the 'phrase 2' set randomly, and lastly it will select a phrase from the 'phrase 3' set randomly.  This will allow for a lot more fortunes to be created, using space more efficiently than storing the entire sentences of fortunes into one array.
+
+I want to use a multiway trie as the underlying data structure.  It is essentially a tree that has arrays as its nodes.  Each node will serve as a set that I described in the previous paragraph.  I envision using simple text files to hold the phrases so they can be easily accessed and parsed.  This data structure uses space, but it is time efficient.  
+
+Note to Christina: This project so far has only existed in my imagination.  I have considered flaws and obstacles, but have by no means come up with all of them.  Please give me your honest ideas and suggestions.  I would appreciate any additions or ideas you may have to make this project even better.
+
+Possible Databases:
+
+http://silgro.com/fortunes.htm
+I'm thinking of using this site as a diving platform to help me make my own database.  I want to expand this one, which seems to have the best messages.
