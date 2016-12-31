@@ -1,31 +1,9 @@
 /*
  * Names: Erin Cole and Christina Cook
  * Filename: Fortune.java
- * Description: this is the driver for the project.  It takes in the input from  *		the user and calls the needed functions
+ * Description: this file sets up the majority of the function calls and makes m *              most of the instances of the other objects of the other classes.
  */
 
 class Fortune {
 
-/*
- * Function Name: main
- * Description: This function takes in user input and uses needed classes
- * Input: a String array called args -- the user input
- * Return: int that indicates end of program
- */
-
-public static void main(String[] args) {
-/* this funtion will take in the user choice for getting a fortune or getting
- * an affirmation.
- *
- * Fortune:
- * 	    need to randomly select the fortune
- * 	    need to return it
- * Affirmation:
- *          need to randomly select the affirmation
- *          need to return it
- *
- * Keep main small, allow the work to be done underneath
- */
-
-}
 }
