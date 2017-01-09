@@ -4,6 +4,24 @@
  * 		the fortune databases.
  */
 
-class FCTrie {
+public class FCTrie {
+     private FCNode root;
 
-}
+     public FCTrie(FCNode root) {
+          root = new FCNode();
+     }
+     public boolean insert(String[] children) {
+          return false;
+     }
+     public boolean find(String[] children) {
+          return false;
+     }
+     //should this be a reference to an array?
+     public class FCNode {
+          private String[] children;
+         
+          public FCNode() {} 
+     }
+
+}     
+
